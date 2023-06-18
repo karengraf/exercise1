@@ -1,0 +1,31 @@
+{
+"data": [
+  {
+    "name": "Lisa",
+    "email": "lisamayer@gmail.com",
+    "address": "Calle Alcalá 21",
+    "city": "Madrid",
+    "state": "Madrid",
+    "zip": "28003",
+    "cardName": "Lisa Mayer",
+    "cardNumber": "4513 2568 5876 0869",
+    "month": "September",
+    "year": "2022",
+    "cvv": "593"
+  },
+
+  {
+    "name": "Stefan",
+    "email": "stefanmartinez@gmail.com",
+    "address": "Avenida del Oeste 23",
+    "city": "Valencia",
+    "state": "Comunidad Valenciana",
+    "zip": "46001",
+    "cardName": "Stefan Martinez",
+    "cardNumber": "5191 7323 4397 5393",
+    "month": "April",
+    "year": "2023",
+    "cvv": "867"
+  }
+]
+}
