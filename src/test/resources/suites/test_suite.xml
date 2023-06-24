@@ -3,7 +3,7 @@
 
 <suite name="Test Suite">
 
-    <test name="Login Tests" enabled="false">
+    <test name="Login Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:3100/login"/>
         <parameter name="userName" value="johndoe19"/>
         <parameter name="password" value="supersecret"/>
@@ -13,7 +13,7 @@
         </classes>
     </test>
 
-    <test name="Search Tests" enabled="false">
+    <test name="Search Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:3100/search"/>
         <parameter name="searchWord" value="automation"/>
 
@@ -30,7 +30,7 @@
         </classes>
     </test>
 
-    <test name="Grid Tests" enabled="false">
+    <test name="Grid Tests" enabled="true">
         <parameter name="appUrl"   value="http://localhost:3100/grid"/>
         <parameter name="itemIndex" value="6"/>
 

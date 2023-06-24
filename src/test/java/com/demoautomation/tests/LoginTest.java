@@ -34,8 +34,6 @@ public class LoginTest extends BaseTest {
         this.loginPage.fillUserInput(userName);
         this.loginPage.fillPasswordInput("akdnaodw");
         this.loginPage.clickLoginButton();
-        //Assert.assertEquals(this.loginPage.areCredentialsInvalidOrBlank(), "WRONG CREDENTIALS");
-        //Assert.assertTrue(this.loginPage.areCredentialsInvalid());
         Assert.assertTrue(this.loginPage.isErrorMessageCorrect("WRONG CREDENTIALS"));
     }
 
@@ -44,8 +42,6 @@ public class LoginTest extends BaseTest {
         this.loginPage.fillUserInput((""));
         this.loginPage.fillPasswordInput((""));
         this.loginPage.clickLoginButton();
-        //Assert.assertEquals(this.loginPage.areCredentialsInvalidOrBlank(), "FIELDS CAN NOT BE EMPTY");
-        //Assert.assertTrue(this.loginPage.areCredentialsBlank());
         Assert.assertTrue(this.loginPage.isErrorMessageCorrect("FIELDS CAN NOT BE EMPTY"));
     }
 }
